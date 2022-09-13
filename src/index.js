@@ -24,8 +24,8 @@ const tablePrefix = `<tr><th>ENS Text Key</th><th>Value</th></tr>`;
 
 let address;
 
-//const BACKEND_ADDR = "http://localhost:3000";
-const BACKEND_ADDR = "https://pure-garden-67804.herokuapp.com:3000";
+const BACKEND_ADDR = "http://localhost:3000";
+//const BACKEND_ADDR = "https://pure-garden-67804.herokuapp.com:3000";
 
 async function createSiweMessage(address, statement) {
     const res = await fetch(`${BACKEND_ADDR}/nonce`, {

@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack serve",
-    "start": "npm run dev"
+    "dev": "webpack serve"
   },
   "keywords": [],
   "author": "",

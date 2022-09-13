@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack serve",
     "build": "webpack --mode production",
-    "start": "node src/index.html"
+    "start": "web dist/index.html"
   },
   "keywords": [],
   "author": "",

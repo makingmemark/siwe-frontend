@@ -6,8 +6,7 @@
   "scripts": {
     "heroku-prebuild": "npm install",
     "dev": "webpack serve",
-    "build": "webpack --mode production",
-    "start": "dist/index.html"
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",

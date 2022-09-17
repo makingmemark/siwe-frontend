@@ -27,6 +27,8 @@ let address;
 //const BACKEND_ADDR = "http://localhost:3000";
 const BACKEND_ADDR = "https://pure-garden-67804.herokuapp.com";
 
+console.log('yo!');
+
 async function createSiweMessage(address, statement) {
     const res = await fetch(`${BACKEND_ADDR}/nonce`, {
         credentials: 'include',
